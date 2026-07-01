@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0243/i/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 報德玉像七佛頌碑
+  edition:
+    short: i
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0048.xml
+    old_id: I01n0048
+hash: sha256:c1a880b97d9d6c3c1c182afb8aef1dd394adc6a226674db40d5c90b9f97404d3

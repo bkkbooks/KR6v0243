@@ -1,0 +1,72 @@
+canonical_identifier: bkk:krp/KR6v0243/v1
+canonical_location: https://kanripo.org/bkk/KR6v0243/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 報德玉像七佛頌碑
+  identifiers:
+    alt_id:
+    - I01n0048
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0048.xml
+    old_id: I01n0048
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0243_000.yaml, hash: 'sha256:c1a880b97d9d6c3c1c182afb8aef1dd394adc6a226674db40d5c90b9f97404d3'}
+  - {seq: 1, filename: KR6v0243_001.yaml, hash: 'sha256:bcbcd789df6ad55cd113dda3c77b8688b9271b8fe7cf38a75434e371b1b07594'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0243_001.markers.yaml, hash: 'sha256:28c6e39ce2d70429f06d35d918568072afec8d47417577fe1e61d7b808986422'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0243_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 973
+  label: 報德玉像七佛頌碑
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0243_I_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 之一　碑陰
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0243_I_001-mulu-2
+    span:
+    - body
+    - 533
+    - 533
+  label: 之二　碑側
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0243_I_001-mulu-3
+    span:
+    - body
+    - 793
+    - 793
+  label: 之三　碑側
+  type: mulu
+  level: 1
+hash: sha256:e4956efac710225fd6b78f6696c621e1550f7213c128da4d0bcebacdcdab4918
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
