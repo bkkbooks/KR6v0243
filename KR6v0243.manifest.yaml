@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0243/v1
 canonical_location: https://kanripo.org/bkk/KR6v0243/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 報德玉像七佛頌碑
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0243_000.yaml, hash: 'sha256:c1a880b97d9d6c3c1c182afb8aef1dd394adc6a226674db40d5c90b9f97404d3'}
-  - {seq: 1, filename: KR6v0243_001.yaml, hash: 'sha256:56aa03a770a5a3d0bfe5f3c080bb6dcc96cd3691a3f7ebe57c021e3ee741b111'}
+  - {seq: 1, filename: KR6v0243_001.yaml, hash: 'sha256:1fa5cb4710a4a1c2dbf93b67b85fd7b525823c7ce805d1e29bbcbd70334d7abb'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0243_000.markers.yaml, hash: 'sha256:2a594f7dd69e749684d559111654e7f6ab518110c07f62f08fc9206221187304'}
-  - {seq: 1, role: markers, filename: assets/KR6v0243_001.markers.yaml, hash: 'sha256:77a1b0fda5db0fb96f8b066e8b705d94e8b2cec226e134b66894b35fd7c8b990'}
+  - {seq: 1, role: markers, filename: assets/KR6v0243_001.markers.yaml, hash: 'sha256:f23edf19cfd0a20a2a6a514e02eaa03f26d415cf2bd21ebbce604f6821eba1f3'}
 table_of_contents:
 - ref:
     seq: 1
@@ -67,4 +67,7 @@ table_of_contents:
   label: 之三　碑側
   type: mulu
   level: 1
-hash: sha256:1151e38d6ed125cf2bc6ffc190fda62539e3195fc5b2c17e605add262fd1f99b
+hash: sha256:ac0cffedd14985b7a13dd07325468405e5832fd492c3f2f13657c23c1e196aea
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
